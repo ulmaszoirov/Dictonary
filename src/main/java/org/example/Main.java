@@ -19,5 +19,7 @@ public class Main {
         ApplicationContext applicationContext = new AnnotationConfigApplicationContext(Config.class);
             MainController mainController = (MainController) applicationContext.getBean("mainController");
         mainController.start();
+
+        //here i am
     }
 }
